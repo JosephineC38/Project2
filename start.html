@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title> Getting Started </title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <!-- https://www.w3schools.com/howto/howto_js_topnav.asp -->
+  <div class="topnav">
+    <a class="active" href="start.html">Getting Started </a>
+    <a href="chapters.html"> Chapters </a>
+    <a href="html/css.html">HTML/CSS </a>
+    <a href="resources.html"> Resources </a>
+    <a href="index.html">About </a>
+  </div>
+
+
+  <h1> Getting Started </h1>
+  <p> What is Javascript? Right now, it's a pretty boring page. Nothing happens.
+    <br>
+    But wait, a button. Click on it. Maybe it will change the cat.
+  </p>
+
+
+  <img src="https://i.natgeofe.com/n/548467d8-c5f1-4551-9f58-6817a8d2c45e/NationalGeographic_2572187_square.jpg"
+    alt="Unchangebale Cat" width="200px" height="200px">
+  <br>
+  <button> Change the Cat </button>
+
+
+  <p> Oh come oh, why didn't the cat change? That's because we didn't add any Javascript.
+    Without JS, it's a static website. But with JS, it's a dyamic webpage. Now click on the new button.
+  </p>
+
+
+  <img src="https://i.natgeofe.com/n/548467d8-c5f1-4551-9f58-6817a8d2c45e/NationalGeographic_2572187_square.jpg"
+    alt="static cat" width="200px" height="200px" id="cat">
+  <br>
+  <button onclick = "changeCat()"> Change the Cat </button>
+
+  <p id="catText" alt="dyamanic cat">
+  <p> Look out the image changed? Very cool. </p>
+
+
+  <h2> Where do you add Javascript? </h2>
+  <p> There are a few different ways to place JavaScript. If you only want one file, you could place it in the script
+    tag in html.
+  </p>
+  <img src="/Pictures/start/script1.png" alt="script inside html">
+
+  <p>
+    Or you could create another file and link it back to the HTML. For these examples, I will use another file.
+  </p>
+  <img src="/Pictures/start/script2.png" alt="script inside another file">
+  <br>
+  <img src="/Pictures/start/script3.png" alt="script inside another file">
+
+  <h2> First Line of Code </h2>
+  <p>
+    Now get out your favorite code editor and let's start writing Javascript. In your script, type out
+    console.log("Hello World");.
+  </p>
+
+  <img src="/Pictures/start/helloPic.png" alt="console.log('Hello World'); ">
+  <br>
+  <button onclick=results()> Check Results </button>
+  <br> <br>
+  <img id="helloConsole" src="/Pictures/start/helloConsole.png" alt="Console Output">
+
+  <h2> What is Console </h2>
+
+  <p>
+    A <strong> console </strong> can log information to the console. It is used for debugging and testing. One advantage
+    is that it isn't visible on the website.
+  </p>
+
+  <h2> What's Next </h2>
+  <p>
+    Now that you understand the purpose of Javascript, head on over to <a href="chapters.html"> Chapters </a> to learn
+    basic topics about it.
+  </p>
+
+
+
+</body>
+
+</html>
