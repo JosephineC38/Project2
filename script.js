@@ -1,5 +1,17 @@
 var cat = 0;
 
+
+// Used to check if the multiple choice answer is correct
+function answers() {
+  if (document.getElementById("right").checked) {
+    document.getElementById("answer").innerHTML = "That answer is right";
+  } else {
+    document.getElementById("answer").innerHTML = "That answer is wrong";
+  }
+  
+}
+
+// on Getting Started, changes paragraph text everytime the caText button is clicked
 function changeCat() {
   if(cat == 0){
      document.getElementById("cat").src = "https://i.natgeofe.com/n/4cebbf38-5df4-4ed0-864a-4ebeb64d33a4/NationalGeographic_1468962_4x3.jpg";
@@ -18,6 +30,9 @@ function changeCat() {
   cat++;
 }
 
+// On Getting Started displays the first line of code
 function results() {
    document.getElementById("helloConsole").style.visibility = "visible"; 
 }
+
+

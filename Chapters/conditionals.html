@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title> Functions </title>
     <link rel="stylesheet" href="/style.css">
-    <script src="script.js"></script>
+     <script src="/script.js"></script>
+    
   </head>
   <body>
     <div class="topnav">
@@ -41,24 +42,30 @@
         <img src = "/Pictures/conditionals/else.png">
 
         <!-- https://www.w3schools.com/tags/att_input_type_radio.asp -->
-       
+        <form>
            <p> What does the following code print? </p>
-           <form>
+
              <img src = "\Pictures\conditionals\question1.png" alt = "Question 1">
              <br> 
-             <input type="radio" id="html" name="fav_language" value="HTML">
-             <label for="html"> The number is less than or equal to 1 </label><br>
-             
-             <input type="radio" id="css" name="fav_language" value="CSS">
-             <label for="css"> The number is 2 </label><br>
-             
-             <input type="radio" id="javascript" name="fav_language" value="JavaScript">
-             <label for="javascript"> The number is greater than or equal to 5 </label>
+             <input type="radio" id="answer1" name = "Question 1" value="A1">
+             <label for="A1"> The number is less than or equal to 1 </label><br>
+
+             <input type="radio" id="answer2" name = "Question 1" value="A2" >
+             <label for="A2"  > The number is 2 </label><br>
+
+             <input type="radio" id="right" name = "Question 1" value="A3" >
+             <label for="A3" > The number is greater than or equal to 5 </label>
               <br> 
-             <input type="radio" id="javascript" name="fav_language" value="JavaScript">
-             <label for="javascript"> The number is 3 or 4 </label>
+
+             <input type="radio" id="answer4" name = "Question 1"  value="A4" >
+             <label for="A4" > The number is 3 or 4 </label>
+           <br>
+           <button type = "button" onclick = "answers()"> Check Me </button>
+           <br> 
+           <p id = "answer" > </p>
            </form>
-           
+        
+           <a href="variables.html"> <-- Variables</a>
 
   </body>
 </html>

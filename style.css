@@ -31,7 +31,7 @@
   body {
     text-align: center;
     background-color: rgba(167, 203, 224, 0.801);
-    font-size: 10px;
+    font-size: 15px;
   }
 
 button {
@@ -43,10 +43,17 @@ button {
 }
 
 form {
-  text-align: left;
+  width: 50%;
+  margin-left : 25%;
+  text-align: center;
+  border: 2px solid black; 
+  background: rgb(77,136,255); 
 }
 
-span {
-  border: 1px solid black;
+#paragraphExample {
+  border: 10px solid #14db8f; 
 }
+
+
+
 
